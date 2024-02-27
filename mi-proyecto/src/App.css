@@ -1,0 +1,30 @@
+/* styles/tasklist.css */
+
+.task-list {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px ;
+  padding: 20px;
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.task-list > h1 {
+  
+  color: #333;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list  li::before 
+{
+  content: "* "; 
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
